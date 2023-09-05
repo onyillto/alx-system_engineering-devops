@@ -1,0 +1,11 @@
+#!/bin/bash
+7-file="*\\'\"Best School\"'\\*$?$*****:)"
+content="Best School"
+echo -e "$content\n" > "$7-file"
+if [ -e "$7-file" ]; then
+  echo "File '$filename' created successfully."
+else
+  echo "Error creating file '$7-file'."
+fi
+
+
